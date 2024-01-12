@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       {
+        box-sizing: border-box;
+      }
+      h2 {
+        margin: 0;
+      }
+      header,
+      footer {
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+      }
+      .menu {
+        width: 25%;
+        color: white;
+      }
+      .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #502064;
+      }
+      .menu li:hover {
+        cursor: pointer;
+        background-color: #8267be;
+      }
+      .metin {
+        width: 75%;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .col {
+        float: left;
+        padding: 15px 15px 15px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Header</h1></header>
+    <main class="clearfix">
+      <div class="menu col">
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="metin col">
+        <h2>Komple Web Geliştirme</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
+          tempore ea consequatur, soluta voluptatem dolor recusandae eius
+          consectetur sint. Sapiente id, numquam reprehenderit molestias velit
+          dignissimos a aliquid neque corrupti?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+          numquam doloribus a tenetur repellendus maiores labore nobis esse
+          quasi laboriosam, fuga pariatur voluptates illum alias eos recusandae
+          tempora nisi. Sunt?
+        </p>
+      </div>
+    </main>
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>
